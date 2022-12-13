@@ -45,6 +45,11 @@ local on_attach = function(client, bufnr)
   end
 end
 
+local lsp_flags = {
+  -- This is the default in Nvim 0.7+
+  debounce_text_changes = 150,
+}
+
 -- used to enable autocompletion (assign to every lsp server config)
 local capabilities = cmp_nvim_lsp.default_capabilities()
 
@@ -75,6 +80,7 @@ typescript.setup({
 lspconfig["pyright"].setup({
   capabilities = capabilities,
   on_attach = on_attach,
+  flags = lsp_flags,
 })
 
 

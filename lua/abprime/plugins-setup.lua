@@ -24,6 +24,7 @@ return require('packer').startup(function(use)
     use 'nvim-lua/plenary.nvim'
 
     -- colorscheme
+    use "olimorris/onedarkpro.nvim"
     use 'bluz71/vim-nightfly-guicolors'
 
     -- tmux & split window navigatiopn
@@ -89,6 +90,9 @@ return require('packer').startup(function(use)
     use 'windwp/nvim-ts-autotag'
 
     use 'lewis6991/gitsigns.nvim'
+
+    -- python lsp
+    use 'HallerPatrick/py_lsp.nvim'
 
     use 'ThePrimeagen/vim-be-good'
     use 'wakatime/vim-wakatime'
