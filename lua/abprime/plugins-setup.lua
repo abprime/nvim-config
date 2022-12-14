@@ -94,6 +94,12 @@ return require('packer').startup(function(use)
     -- python lsp
     use 'HallerPatrick/py_lsp.nvim'
 
+    -- leap vim motion plugin
+    use 'ggandor/leap.nvim'
+
+    -- bracket colorizer 
+    use 'p00f/nvim-ts-rainbow'
+
     use 'ThePrimeagen/vim-be-good'
     use 'wakatime/vim-wakatime'
 

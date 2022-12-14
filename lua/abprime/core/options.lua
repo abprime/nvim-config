@@ -1,9 +1,8 @@
-
 local opt = vim.opt
 
 ---- global options
 opt.swapfile = true
-opt.dir = '/tmp'
+opt.dir = "/tmp"
 opt.laststatus = 2
 
 -- appearance
@@ -60,3 +59,5 @@ opt.autoindent = true
 --
 
 ----
+
+vim.g.python3_host_prog = "/Users/abprime/opt/anaconda3/bin/python3"
