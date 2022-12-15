@@ -20,8 +20,8 @@ keymap.set("n", "<leader>sx", ":close<CR>") -- make split windows equal width
 
 keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
 keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
-keymap.set("n", "<leader>tn", ":tabn<CR>") -- go to next tab 
-keymap.set("n", "<leader>tp", ":tabp<CR>") -- go to previous tab 
+keymap.set("n", "<leader>tn", ":tabn<CR>") -- go to next tab
+keymap.set("n", "<leader>tp", ":tabp<CR>") -- go to previous tab
 
 -- plugin keymaps
 
@@ -37,3 +37,11 @@ keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<CR>")
 keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<CR>")
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<CR>")
 keymap.set("n", "<leader>fb", "<cmd>Telescope help_tags<CR>")
+keymap.set("n", "<right>", "")
+keymap.set("n", "<left>", "")
+keymap.set("n", "<up>", "")
+keymap.set("n", "<down>", "")
+keymap.set("i", "<right>", "")
+keymap.set("i", "<left>", "")
+keymap.set("i", "<up>", "")
+keymap.set("i", "<down>", "")
