@@ -37,6 +37,11 @@ keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<CR>")
 keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<CR>")
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<CR>")
 keymap.set("n", "<leader>fb", "<cmd>Telescope help_tags<CR>")
+
+-- neomux keymap overrides
+vim.g.neomux_start_term_map = "<leader>sc"
+
+-- disable arrow keys
 keymap.set("n", "<right>", "")
 keymap.set("n", "<left>", "")
 keymap.set("n", "<up>", "")
