@@ -41,6 +41,13 @@ keymap.set("n", "<leader>fb", "<cmd>Telescope help_tags<CR>")
 -- neomux keymap overrides
 vim.g.neomux_start_term_map = "<leader>sc"
 
+-- lazygit
+keymap.set("n", "<C-g>o", "<cmd>LazyGit<CR>")
+keymap.set("n", "<C-g>cf", "<cmd>LazyGitFilterCurrentFile<CR>")
+
+-- close command
+keymap.set("n", "<C-f>x", "<cmd>close<CR>")
+
 -- disable arrow keys
 keymap.set("n", "<right>", "")
 keymap.set("n", "<left>", "")
